@@ -1,0 +1,8 @@
+package practice1;
+
+import java.util.Scanner;
+public class InputDemo {
+	public static void main(String argsp[]){
+		Scanner scanner = new Scanner();
+	}
+}
