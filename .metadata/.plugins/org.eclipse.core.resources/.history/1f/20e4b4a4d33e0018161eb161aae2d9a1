@@ -1,0 +1,15 @@
+package practiceOOP;
+import java.util.Scanner;
+
+public class Student {
+	private String name;
+	
+	private int age;
+	
+	private int id;
+	
+	public void study(String name){
+		Scanner sc = new Scanner(System.in);
+	}
+	
+}

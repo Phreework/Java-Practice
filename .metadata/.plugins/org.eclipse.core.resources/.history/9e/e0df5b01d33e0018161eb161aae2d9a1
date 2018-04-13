@@ -1,0 +1,8 @@
+package practiceOOP;
+
+public class Student {
+	private String name;
+	
+	private Int age;
+	
+}

@@ -1,0 +1,15 @@
+package practiceOOP;
+
+public class StudentDemo1 {
+
+	public static void main(String[] args){
+		initStudent();
+	}
+	
+	public void initStudent(){
+		Student student1 = new Student("liujin",10,1);
+		Student student2 = new Student("chenrong",10,2);
+		Student student3 = new Student("lyt",10,3);
+		Student student4 = new Student("YuLei",15,4);
+	}
+}

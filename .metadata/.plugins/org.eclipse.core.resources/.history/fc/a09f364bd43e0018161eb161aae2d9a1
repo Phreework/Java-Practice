@@ -1,0 +1,15 @@
+package practiceOOP;
+
+public class StudentDemo1 {
+
+	public static void  main(String[] args){
+		
+	}
+	
+	public void study(){
+		Student student1 = new Student("liujin",10,10);
+		
+		
+		
+	}
+}

@@ -1,0 +1,31 @@
+package practiceOOP;
+import java.util.Scanner;
+public class StudentDemo1 {
+
+	public static void main(String[] args){
+		Student[] students = initStudent();
+		queryStudent(students);
+	}
+	
+	public static Student[] initStudent(){
+		Student s1 = new Student("liujin",10,1);
+		Student s2 = new Student("chenrong",10,2);
+		Student s3 = new Student("lyt",10,3);
+		Student s4 = new Student("YuLei",15,4);
+		Student[] students = new Student[4];
+		students[0] = s1;
+		students[1] = s2;
+		students[2] = s3;
+		students[3] = s4;
+		return students;
+	}
+	
+	static void queryStudent(Student[] students){
+		//System.out.println("请输入要查询的学生id：");
+		//Scanner sc = new Scanner(System.in);
+		//int id = sc.nextInt();
+		for(Student student : students){
+			student.study();
+		}
+	}
+}
