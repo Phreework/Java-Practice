@@ -1,0 +1,14 @@
+package com.course.one;
+
+public class Test1 {
+	private int price = 50;
+	private int count = 120;
+	
+	private static int caculPrice() {
+		return price*count;
+	}
+	
+	public static void main(String[] args) {
+		caculPrice();
+	}
+}

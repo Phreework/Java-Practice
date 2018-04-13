@@ -1,0 +1,16 @@
+package com.course.one;
+
+public class Test1 {
+	private static int price = 50;
+	private static int count = 120;
+	
+
+	
+	public static void main(String[] args) {
+		System.out.println("总价格是：" + calcuPrice());
+	}
+	
+	public static int calcuPrice() {
+		return price*count;
+	}
+}
