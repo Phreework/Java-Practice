@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Java-Practice/src/practiceBase/EncryptDemo.java"/>
+<listEntry value="/Java-Practice/src/com/practice/base/EncryptDemo.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="practiceBase.EncryptDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.practice.base.EncryptDemo"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java-Practice"/>
 </launchConfiguration>
