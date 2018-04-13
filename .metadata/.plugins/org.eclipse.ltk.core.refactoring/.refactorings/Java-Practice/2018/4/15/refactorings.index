@@ -3,3 +3,4 @@
 1523534232243	Move compilation unit
 1523534374429	Extract method 'print'
 1523534662734	Extract method 'printString'
+1523593336288	Rename package 'practice1'
