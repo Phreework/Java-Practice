@@ -2,7 +2,6 @@ package com.course.two.jframe;
 
 import java.awt.Color;
 import java.awt.Container;
-import java.awt.event.ActionListener;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -44,12 +43,3 @@ public class GUIDemo extends JFrame{
 		new GUIDemo().print(); 
 	}
 }
-
-//class ButtonListener implements ActionListener {
-//	
-//}
-
-
-
-
-

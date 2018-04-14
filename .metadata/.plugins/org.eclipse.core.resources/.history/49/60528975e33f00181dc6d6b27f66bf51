@@ -45,9 +45,9 @@ public class GUIDemo extends JFrame{
 	}
 }
 
-//class ButtonListener implements ActionListener {
-//	
-//}
+class ButtonListener implements ActionListener() {
+	
+}
 
 
 
