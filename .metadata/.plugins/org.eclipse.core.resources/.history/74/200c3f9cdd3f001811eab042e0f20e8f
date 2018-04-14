@@ -13,7 +13,7 @@ public class GUIDemo extends JFrame{
 
 		JFrame jf = new JFrame();
 		JPanel jp = new JPanel();
-		JLabel jl =new JLabel(new ImageIcon("./src/img/1.jpg"));
+		JLabel jl =new JLabel(new ImageIcon("./img/1.jpg"));
 		JButton jb = new JButton("这个刹车不太灵");
 		jb.setBackground(Color.GRAY);
 		//将图片组件加到中间容器
