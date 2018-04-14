@@ -1,0 +1,9 @@
+package com.supermarket;
+
+import com.supermarket.Test.Emenu;
+
+public abstract class Menu {
+	static Emenu print() {
+		return Emenu.»¶Ó­;
+	}
+}

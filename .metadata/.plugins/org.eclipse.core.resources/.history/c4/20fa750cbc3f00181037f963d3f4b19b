@@ -1,0 +1,39 @@
+package com.supermarket;
+
+
+public class Test {
+	enum Emenu{
+		登陆,
+		退出,
+		抽奖,
+		主菜单,
+		欢迎,
+		管理,
+		错误,
+		
+	}
+	static Emenu infoNumber;
+	static boolean isQuit = true;
+	public static void main(String[] args) {
+		infoNumber = LoginMenu.print();
+		while(isNotQuit()) {
+			Menu m = createChildMenu();
+			m.print();	
+		}
+	}
+	
+	static boolean isNotQuit() {
+		return isQuit;
+	}
+	
+	static Menu createChildMenu(){
+		switch  (infoNumber) {
+		case 主菜单:
+			Menu m = (Menu) new MainMenu();
+			return m;
+		default:
+			Menu d = (Menu) new MainMenu();
+			return d;
+		}
+	}
+}

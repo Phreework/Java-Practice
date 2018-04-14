@@ -1,0 +1,11 @@
+package com.supermarket;
+
+import java.util.Scanner;
+
+import com.supermarket.Test.Emenu;
+
+public class AddGoodsMenu extends Menu {
+	public Emenu print() {
+		AddGoods ag = new AddGoods(); 
+	}
+}

@@ -1,0 +1,10 @@
+package com.course.one;
+
+public class LoginDesign {
+	public static void main(String[] args) {
+		System.out.println("********************");
+		System.out.println("\tµÇÂ½");
+		System.out.println("\tÍË³ö");
+		System.out.println("********************");
+	}
+}

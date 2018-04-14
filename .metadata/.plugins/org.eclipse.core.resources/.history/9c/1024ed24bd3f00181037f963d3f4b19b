@@ -1,0 +1,57 @@
+package com.supermarket;
+
+
+public class Test {
+	enum Emenu{
+		µÇÂ½,
+		ÍË³ö,
+		³é½±,
+		Ö÷²Ëµ¥,
+		»¶Ó­,
+		¹ÜÀí,
+		´íÎó,
+		
+	}
+	static Emenu infoNumber;
+	static boolean isQuit = true;
+	public static void main(String[] args) {
+		LoginMenu firstpage = new LoginMenu();
+		firstpage.print();
+		
+		while(isNotQuit()) {
+			Menu m = createChildMenu();
+			m.print();	
+		}
+	}
+	
+	static boolean isNotQuit() {
+		return isQuit;
+	}
+	
+	static Menu createChildMenu(){
+		switch  (infoNumber) {
+		case Ö÷²Ëµ¥:
+			Menu mainMenu = (Menu) new MainMenu();
+			return mainMenu;
+		case »¶Ó­:
+			Menu welcomeMenu = (Menu) new WelcomeMenu();
+			return welcomeMenu;
+		case µÇÂ½:
+			Menu loginMenu = (Menu) new LoginMenu();
+			return loginMenu;
+		case ÍË³ö:
+			Menu quitMenu = (Menu) new QuitMenu();
+			return quitMenu;
+		case ¹ÜÀí:
+			Menu managerMenu = (Menu) new ManagerMenu();
+			return managerMenu;
+		case ´íÎó:
+			Menu ErrorMenu = (Menu) new ErrorMenu();
+			return ErrorMenu;
+		default:
+			Menu defaultMenu = (Menu) new MainMenu();
+			return defaultMenu;
+		
+		}
+	}
+}

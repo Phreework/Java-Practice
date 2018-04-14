@@ -1,0 +1,14 @@
+package com.supermarket;
+
+import java.util.Scanner;
+
+public class AddGoods {
+	public void addGoods() {
+		System.out.println("请输入商品信息  商品名称  商品价格");
+		Scanner s = new Scanner(System.in);
+		String input = s.next();
+		
+		GoodsDao gd = new GoodsDao();
+		gd.add(input);
+	}
+}

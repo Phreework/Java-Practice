@@ -1,0 +1,27 @@
+package com.supermarket;
+
+import java.util.Scanner;
+
+public class AddGoods {
+	public void addGoods() {
+		
+		boolean t = true;
+		
+		while(t) {
+		System.out.println("请输入商品信息  商品名称  商品价格");
+		Scanner s = new Scanner(System.in);
+		String input = s.next();
+		
+		GoodsDao gd = new GoodsDao();
+		gd.add(input);
+		
+		System.out.println("是否继续添加y/n");
+		Scanner s2 = new Scanner(System.in);
+		String choice = s2.nextLine();
+		if (choice.equals("n")) {
+			t = false;
+		}
+			
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package com.supermarket;
+
+public class Login {
+	public void print() {
+		System.out.println("********************");
+		System.out.println("\tµÇÂ½");
+		System.out.println("\tÍË³ö");
+		System.out.println("********************");
+	}
+}

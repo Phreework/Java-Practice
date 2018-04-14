@@ -1,0 +1,31 @@
+package com.supermarket;
+
+enum menu{
+	µÇÂ½,
+	ÍË³ö,
+	Ò¡½±
+	
+}
+public class Test {
+	static int infoNumber;
+	static boolean isQuit;
+	public static void main(String[] args) {
+		infoNumber = Login.print();
+		while(isNotQuit()) {
+			Menu m = createChildMenu();
+			m.print();	
+		}
+	}
+	
+	boolean isNotQuit() {
+		return isQuit;
+	}
+	
+	Menu createChildMenu(){
+		switch  (infoNumber) {
+		case menu.µÇÂ½ :
+			break;
+		
+		}
+	}
+}

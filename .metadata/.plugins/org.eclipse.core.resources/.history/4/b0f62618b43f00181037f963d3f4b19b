@@ -1,0 +1,7 @@
+package com.supermarket;
+
+public abstract class Menu {
+	static Emenu print() {
+		return 0;
+	}
+}

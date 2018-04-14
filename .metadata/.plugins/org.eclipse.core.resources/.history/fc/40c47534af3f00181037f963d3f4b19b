@@ -1,0 +1,14 @@
+package com.supermarket;
+
+public class Test {
+	static int infoNumber;
+	public static void main(String[] args) {
+		Login.print();
+		if (infoNumber == 1) {
+			MainMenu.print();
+		}
+		if (infoNumber == 2) {
+			
+		}
+	}
+}

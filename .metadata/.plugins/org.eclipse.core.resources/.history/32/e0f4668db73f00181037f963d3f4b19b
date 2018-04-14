@@ -1,0 +1,26 @@
+package com.supermarket;
+
+import java.util.Scanner;
+
+import com.supermarket.Test.Emenu;
+
+public class LoginMenu {
+	
+	public static Emenu print() {
+		Scanner s = new Scanner(System.in);
+		
+		
+		System.out.println("****好又多超市欢迎你****");
+		System.out.println("\t1.输入用户名");
+		System.out.println("\t2.退出");
+		System.out.println("********************");
+		System.out.println("请输入选择的数字：");
+		int i = s.nextInt();
+		if (i == 1) 
+			return Emenu.主菜单;
+		if (i == 2) 
+			return Emenu.主菜单;
+		return Emenu.错误;
+	}
+	LoginMenu(){};
+}
