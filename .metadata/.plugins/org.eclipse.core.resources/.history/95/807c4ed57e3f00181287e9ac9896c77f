@@ -1,0 +1,5 @@
+package com.course.two;
+imoprt java.util.Scanner;
+public class Test1 {
+
+}
