@@ -1,0 +1,23 @@
+package com.course.two.jframe;
+
+import java.awt.Container;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+public class GUIDemo extends JFrame{
+	void print() {
+		Container c = this.getContentPane();
+		Jpanel jp = new JPanel();
+		jLabel jl =new j 
+		
+		JFrame jf = new JFrame();
+		
+		jf.setVisible(true);
+		jf.setSize(2000, 1000);
+		jf.setLocation(100, 100);
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args) {
+		print();
+	}
+}

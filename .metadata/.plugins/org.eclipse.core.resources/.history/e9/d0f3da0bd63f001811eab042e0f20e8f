@@ -1,0 +1,15 @@
+package com.course.two.test;
+
+public class Car {
+	String name;
+	String color;
+	float speed;
+	Dir dir;
+	
+	void setName(String name) {
+		this.name = name;
+	}
+	String getName() {
+		return name;
+	}
+}
