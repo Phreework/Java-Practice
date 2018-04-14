@@ -11,3 +11,6 @@
 1523620790228	Rename type 'StaticDemo'
 1523620855536	Rename type 'ShowSth'
 1523671414976	Rename compilation unit 'ArrayDemo.java'
+1523674290025	Extract method 'bubbleSortArr'
+1523674434938	Extract method 'print'
+1523674593966	Rename compilation unit 'ForForDemo2.java'
