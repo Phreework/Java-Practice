@@ -1,0 +1,14 @@
+package com.ooPractice.duck;
+
+public interface QuackBehavior {
+
+	public void quack();
+
+}
+
+class Quack implements QuackBehavior {
+	public void quack(){
+  		System.out.println("Quack");
+	}
+}
+
