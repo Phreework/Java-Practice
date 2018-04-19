@@ -19,7 +19,7 @@ class FlyNoWay implements FlyBehavior{
 }
 
 class FlyRocketPowered implements FlyBehavior{
-	public void fly(){
+	public fly(){
 		System.out.println("Im flying with a rocket");
 	}
 }
