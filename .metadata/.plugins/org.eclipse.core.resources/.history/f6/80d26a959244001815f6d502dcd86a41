@@ -1,0 +1,12 @@
+package com.ooPractice.observerPattern;
+
+/*
+ *   Observer Pattern
+ * ---------------------
+ * Subject(主题) + Observer(观察者) = Observer Pattern
+ * 
+ *  
+*/
+public class SimpleDemo {
+
+}

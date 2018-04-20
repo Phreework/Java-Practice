@@ -1,0 +1,11 @@
+package com.ooPractice.observerPattern;
+
+public class WeatherData implements Subject {
+
+	private ArrayList observers;
+	
+	public WeatherData() {
+		observers = new ArrayList();
+	}
+	
+}

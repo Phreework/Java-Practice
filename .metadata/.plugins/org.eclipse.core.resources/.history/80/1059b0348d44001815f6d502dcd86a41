@@ -1,0 +1,5 @@
+package com.ooPractice.observerPattern;
+
+public class Subject {
+
+}

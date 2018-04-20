@@ -1,0 +1,7 @@
+package com.ooPractice.observerPattern;
+
+public class CurrentConditionDisplay implements Observer,DisplayElement {
+	private float temperature;
+	private float humidity;
+	private Subject weatherData;
+}

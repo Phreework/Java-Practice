@@ -1,0 +1,40 @@
+package com.course.three;
+
+public class Line {
+	private Point sPoint;
+	private Point ePoint;
+	
+	public Line(Point sPoint, Point ePoint) {
+		this.sPoint = sPoint;
+		this.ePoint = ePoint;
+	}
+
+	public Point getsPoint() {
+		return sPoint;
+	}
+
+	public void setsPoint(Point sPoint) {
+		this.sPoint = sPoint;
+	}
+
+	public Point getePoint() {
+		return ePoint;
+	}
+
+	public void setePoint(Point ePoint) {
+		this.ePoint = ePoint;
+	}
+
+	@Override
+	public String toString() {
+		return "Line [sPoint=" + sPoint + ", ePoint=" + ePoint + "]";
+	}
+
+	public float getLength() {
+		 return (float)java.lang.Math.sqrt((p1.x-p2.x)*(p1.x-p2.x)+(p1.y-p2.y)*(p1.y-p2.y));
+	}
+	
+	
+	
+	
+}

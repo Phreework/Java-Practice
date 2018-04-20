@@ -1,0 +1,12 @@
+package com.ooPractice.observerPattern;
+
+/*
+ *   Observer Pattern
+ * ---------------------
+ * Subject + Observer = Observer Pattern
+ * 
+ *  
+*/
+public class SimpleDemo {
+
+}

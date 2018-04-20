@@ -1,0 +1,15 @@
+package com.course.three;
+
+public class Line {
+	private Point sPoint;
+	private Point ePoint;
+	
+	public Line(Point sPoint, Point ePoint) {
+		this.sPoint = sPoint;
+		this.ePoint = ePoint;
+	}
+	
+	
+	
+	
+}

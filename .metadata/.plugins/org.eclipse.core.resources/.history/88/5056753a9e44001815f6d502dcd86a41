@@ -1,0 +1,8 @@
+package com.course.three;
+
+public class Line {
+	private Point sPoint;
+	private int x;
+	private int y;
+	
+}

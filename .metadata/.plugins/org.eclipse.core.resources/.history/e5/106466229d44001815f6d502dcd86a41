@@ -1,0 +1,8 @@
+package com.course.three;
+
+public class Test1 {
+	public static void main(String[] args) {
+		Person p1 = new Person("³ÉÁú", 58);
+		Person p2 = new Person("ÀîÁ¬½Ü", 48);
+	}
+}

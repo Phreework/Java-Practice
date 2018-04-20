@@ -1,0 +1,5 @@
+package com.ooPractice.observerPattern;
+
+public interface DisplayElement {
+	public void display();
+}

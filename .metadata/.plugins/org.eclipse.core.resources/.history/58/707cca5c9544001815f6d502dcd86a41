@@ -1,0 +1,5 @@
+package com.ooPractice.observer.display;
+
+public class ForecastDisplay {
+
+}
