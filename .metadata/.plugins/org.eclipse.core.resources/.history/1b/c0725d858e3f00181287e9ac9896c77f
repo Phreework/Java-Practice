@@ -1,7 +1,0 @@
-package com.course.two;
-
-public class BubbleSort {
-	public static void main(String[] args) {
-		int[] arr = {12,88,53,64,232,22,23};
-	} 
-}

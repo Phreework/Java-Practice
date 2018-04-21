@@ -1,5 +1,0 @@
-package com.supermarket;
-
-public abstract class Menu {
-	void print() {};
-}

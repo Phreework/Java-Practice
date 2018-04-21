@@ -1,8 +1,0 @@
-package com.supermarket.view;
-
-public class LookUpGoods {
-	public void lookUpGoods() {
-		GoodsDao gd = new GoodsDao();
-		gd.lookAllGoods();
-	}
-}
