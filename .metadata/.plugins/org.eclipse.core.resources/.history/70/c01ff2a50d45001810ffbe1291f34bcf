@@ -1,0 +1,5 @@
+package com.ooPractice.singleton;
+
+public class PrinterController {
+
+}

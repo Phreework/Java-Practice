@@ -13,4 +13,11 @@
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="com.course.two.jframe.GUIDemo"/>
 <fullyQualifiedTypeName name="com.ooPractice.duck.FlyRocketPowered"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.ooPractice.observerPattern.CurrentConditionsDisplay"/>
+<fullyQualifiedTypeName name="com.ooPractice.observer.Observer"/>
+<fullyQualifiedTypeName name="com.ooPractice.observer.DisplayElement"/>
+<fullyQualifiedTypeName name="com.ooPractice.observer.WeatherData"/>
+<fullyQualifiedTypeName name="com.course.three.LineTest"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,50 @@
+package com.ooPractice.singleton;
+ 
+public class ChocolateMachine {
+	private boolean empty;
+	private boolean boiled;
+	private static ChocolateMachine uniqueInstance;
+  
+	private ChocolateMachine() {
+		empty = true;
+		boiled = false;
+	}
+  
+	public static ChocolateMachine getInstance() {
+		if (uniqueInstance == null) {
+			System.out.println("Creating unique instance of Chocolate Boiler");
+			uniqueInstance = new ChocolateMachine();
+		}
+		System.out.println("Returning instance of Chocolate Boiler");
+		return uniqueInstance;
+	}
+
+	public void fill() {
+		if (isEmpty()) return;
+			System.out.println("×°Âú¿§·È~");
+			empty = false;
+			boiled = false;
+	}
+ 
+	public void drain() {
+		if (!isEmpty() && isBoiled()) {
+			System.out.println("¿§·ÈÅÅ³ö~");
+			empty = true;
+		}
+	}
+ 
+	public void boil() {
+		if (!isEmpty() && !isBoiled()) {
+			System.out.println("¿§·ÈÖóºÃÁË£¡");
+			boiled = true;
+		}
+	}
+  
+	public boolean isEmpty() {
+		return empty;
+	}
+ 
+	public boolean isBoiled() {
+		return boiled;
+	}
+}
